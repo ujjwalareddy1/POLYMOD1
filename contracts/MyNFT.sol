@@ -11,9 +11,9 @@ contract MyNFT is ERC721Enumerable,Ownable {
     
     string public baseUrl = "ipfs://bafybeidmme6am4y47ikr6keqr3cwh4q7psjnquiu3sieeuxe5rhpefszwm/";
 
-    constructor() ERC721("Siddharth_NFT", "SID") {
+    constructor() ERC721("Ujjwala_NFT", "UJJU") {
         promptDescription = ["naruto in germany",
-                                "an eagle ",
+                                "an eagle in space",
                                 "cats on mars",
                                 "pikachu on moon",
                                 "dog doing para training"];
